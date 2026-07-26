@@ -5,3 +5,4 @@ baseurl: "/blog"
 permalink: /:title/
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from

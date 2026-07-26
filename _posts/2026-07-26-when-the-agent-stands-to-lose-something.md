@@ -2,6 +2,8 @@
 layout: post
 title: "When the Agent Stands to Lose Something"
 date: 2026-07-26
+redirect_from:
+  - /when-the-agent-can-lose-something/
 ---
 
 The day agents can own their failures will be the day they stop needing humans to operate successfully. Note that this is not a capability threshold, but an institutional status. The interesting questions start here, because "owning a failure" is not one but three staggered events.
