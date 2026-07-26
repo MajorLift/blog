@@ -41,7 +41,7 @@ The same asymmetry explains why the model cannot reliably attack its own output.
 
 Bias gets the attention, but noise, plain inconsistency across runs and days, degrades decisions at least as much and shows no pattern anyone can catch. The remedies are old and boring and they transfer directly. Decompose any judgment that matters into a handful of factors. Score the factors independently before forming an overall view. Delay the integration until the components are done, because an early overall impression contaminates every component score after it. Check the base rate before believing the inside story. None of this is AI-specific. All of it becomes more valuable with a partner that will fluently justify whichever integrated impression arrived first.
 
-None of it works as occasional inspiration, either. A scaffold is a condition, not a procedure: the structure does not do the thinking, it makes the right kind of thinking likelier to happen. A gym does not make anyone strong on the days they feel like going. The schedule, not the mood, decides.
+None of it works as occasional inspiration, either. A scaffold is a condition, not a procedure: the structure does not do the thinking, it makes the right kind of thinking likelier to happen. A gym does not make anyone strong on the days they feel like going. The schedule decides, not the mood.
 
 ## References
 
