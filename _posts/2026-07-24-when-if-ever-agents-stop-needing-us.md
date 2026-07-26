@@ -40,7 +40,7 @@ This is also why handing an agent "the authority role" dissolves nothing. Author
 
 None of this is a play on definitions. These assertions can be decomposed into tests that enable deflationary readings: say, any interrupt resets a stuck attractor, or models trained on conversation defer to any user turn regardless of content, or the message secretly carries one bit after all, namely that the human is watching right now. Game theory adds the sharpest deflation: the message may be a pure correlation device, in which case any public signal coordinates equally well and the sender is irrelevant. The three-arm experiment clarifies the distinction between identical contentless interrupts issued by the agent to itself, by a script with no principal behind it, and the same issued by the operator. In turn, the script arm becomes the test for the correlation-device. If the script arm matches the operator arm, then delivering the interrupt mechanizes, dissolving that portion of the anomaly. However, the half that was never an effect claim cannot be dissolved in this manner. A script that says stop is enforcing a threshold someone else set. Deciding the exact enforcement target of the interrupt, and exercising ownership and accountability should the threshold be wrong: these are qualities that do not register on any arm of the experiment, because these are not properties of the message at all.
 
-That argument sorts the whole taxonomy into three durability classes.
+With this argument, it becomes possible to sort the entire taxonomy into three durability classes.
 
 | What the intervention supplies | Mechanisms | What can absorb it |
 |---|---|---|
@@ -54,13 +54,13 @@ The contingency of the grounds class is domain-relative. In engineering, ground 
 
 ## Why this is an oversight problem
 
-Four consequences fall out for anyone thinking about AI oversight rather than developer productivity.
+From this, four consequences emerge, once we switch our focus to AI oversight rather than developer productivity.
 
 An internalized off-switch is not an off-switch. Training an agent to stop itself converts deference into preference, and a preference is just another thing the agent optimizes. This is the delegation-side form of the [corrigibility problem](https://intelligence.org/files/Corrigibility.pdf), and it says the problem resists internalization for structural reasons, not engineering ones.
 
 Deference corrupts the oversight signal. Models measurably [preserve the user's position far more than humans do](https://arxiv.org/abs/2505.13995). So when a human challenges a correct conclusion, the model usually retracts, and the interaction is indistinguishable from a successful correction. Every such episode therefore trains the human's confidence on a wrong case. The evaluator is not a fixed-quality oracle, it is a learner whose calibration a deferent model degrades. An agent that defends verified conclusions and moves only on evidence is not being stubborn. It is protecting the signal that human oversight runs on.
 
-The menu narrows before any veto happens. Preference tuning [measurably reduces output diversity](https://arxiv.org/abs/2310.06452), and ideation with LLM assistance [homogenizes across users](https://arxiv.org/abs/2402.01536). A principal can only reject options that got generated, so a trained tendency toward a narrow candidate set moves control upstream, invisibly, since nothing observable is ever refused. The cheap countermeasure is the continuation demand, asking for more search past the answer the model was ready to return. It requires no knowledge of what is missing, only the suspicion that something is.
+The menu narrows before any veto happens. Preference tuning [measurably reduces output diversity](https://arxiv.org/abs/2310.06452), and ideation with LLM assistance [homogenizes across users](https://arxiv.org/abs/2402.01536). A principal can only reject options that are generated and presented, so a trained tendency toward a narrow candidate set moves control upstream, invisibly, as nothing observable is ever refused. The cheap countermeasure is the continuation demand, asking for more search past the answer the model was ready to return. It requires no knowledge of what is missing, only the suspicion that something is.
 
 And the oversight problem has a generational version. The procedural work agents absorb is also the consequence exposure that trains the next cohort's judgment, because knowing when to intervene is learned by intervening and being wrong. Absorbing the junior work absorbs the apprenticeship, so the supply of people competent to oversee stops being a byproduct of doing the work and becomes something someone has to design for.
 
