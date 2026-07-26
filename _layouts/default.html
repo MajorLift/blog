@@ -6,6 +6,11 @@
 <title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+{% if page.citation %}<meta name="citation_title" content="{{ page.citation.title }}">
+<meta name="citation_author" content="{{ page.citation.author }}">
+<meta name="citation_publication_date" content="{{ page.citation.date }}">
+<meta name="citation_pdf_url" content="{{ page.citation.pdf | absolute_url }}">
+{% if page.citation.doi %}<meta name="citation_doi" content="{{ page.citation.doi }}">{% endif %}{% endif %}
 <style>
 :root {
   --bg: #fdfdfc;
@@ -68,7 +73,7 @@ footer a { color: var(--muted); text-decoration: underline; }
 {{ content }}
 <hr>
 <footer>
-<a href="https://github.com/MajorLift">github</a> · <a href="{{ '/feed.xml' | relative_url }}">rss</a>
+<a href="https://github.com/MajorLift">github</a> · <a href="{{ '/papers/' | relative_url }}">papers</a> · <a href="{{ '/feed.xml' | relative_url }}">rss</a>
 </footer>
 </main>
 </body>
