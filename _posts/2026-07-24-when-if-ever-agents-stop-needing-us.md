@@ -1,0 +1,97 @@
+---
+layout: post
+title: "When, If Ever, Will AI Agents Stop Needing Us?"
+date: 2026-07-24
+---
+
+In the [largest published analysis of developer-agent misalignment](https://arxiv.org/abs/2605.29442), drawn from 20,574 real sessions, 91.49% of the misalignment cases that got resolved required explicit human correction. Agents self-corrected 2.99% of the time, and the small remainder resolved through neither. Those two numbers get cited as evidence that agents still need babysitting, and then the conversation moves on, because the record behind them cannot say anything more. Every large-scale study of human-agent interaction logs the correction as a single undifferentiated event. The field knows how often humans intervene and almost nothing about what the intervention carries.
+
+That gap matters because the interesting question is not whether agents need intervention today. They do. The question is whether human intervention is an inherently necessary condition of successful agent function, and a frequency count cannot answer it. Some interventions exist because the agent lacks a fact, and better retrieval will erase them. Some exist for reasons no capability gain touches. Telling these apart requires looking inside the intervention, and no published dataset can look inside. Chat logs omit the densest channels, and the taxonomies built on them index pushback on the wrong axis. The [finest-grained one](https://arxiv.org/abs/2604.20779) distinguishes correction, rejection, and failure report, which grades how hard the human pushed back while recording nothing about what the pushback contained.
+
+## Reading my own record
+
+For seven months I logged my daily work with LLM coding agents on a large production codebase: structured debriefs, most written at the close of the session they cover and a few reconstructed later from persisted records, every substantive human input labeled by type, plus durable records of the corrections that stuck. One practitioner, self-coded, roughly one session in fifteen covered, and debriefs get written when something went wrong and got fixed, so counts from this record are not rates and none are claimed. A log like that proves nothing on its own, and I treat it as exactly that: a way of noticing categories that better data can then test.
+
+Nine intervention mechanisms recur. Compressed to one line each:
+
+1. **Premise-breaking fact.** One verifiable fact that collapses a plan built on an unverified premise.
+2. **Causal-model injection.** A different causal vocabulary for the search, not a correction within the current one.
+3. **Direct-judgment demand.** Forcing a committed verdict where the agent wants to hedge.
+4. **Cross-context evidence pointer.** Not evidence, the location of evidence outside the agent's search scope.
+5. **Purpose re-anchor.** Re-elevating the goal the agent already knows and has stopped optimizing for.
+6. **Implicit-choice surfacing.** Converting a silently applied default into a decision someone actually makes.
+7. **Stop signal.** Declaring a search line dead, or demanding search past an answer the agent was ready to accept. Same mechanism, both signs.
+8. **Requirement dissolution.** Deleting a misspecified requirement instead of iterating against it.
+9. **Demonstration.** Exhibiting the standard by fixing the artifact directly, used where the criterion resists statement. The hand edit is the usual channel, not the category: edits can carry any of the other mechanisms, and what makes this one distinct is a payload no instruction can replace.
+
+The surprise is not in the list. It is that three of the nine carry no domain content at all. The judgment demand, the purpose re-anchor, and the stop signal transfer nothing the agent does not already have. They move commitment, salience, and attention. A fourth of the same species turned up in a later sweep of my transcripts: the bare demand for the evidence behind a claim already made, call it the warrant demand. It supplies nothing, and what it transfers is the obligation to answer for the claim. They work even when the human knows less than the agent about everything under discussion. Their interest is not that they are the most valuable moves on the list. Often they are not. They matter because they are a natural experiment. The value of an intervention has two possible sources, what the message carries and who it comes from, and the six content-bearing mechanisms mix the two inseparably. An intervention that carries nothing isolates the second source, and the second source is where the question of replacement gets decided.
+
+## A perfect model of the operator is not the operator
+
+These mechanisms pose a real anomaly. An intervention that carries no information should be inert. The agent already holds everything needed to generate "stop here" or "commit to a verdict" on its own, and a capable model can often predict that the human is about to say it. Yet a predicted stop and a delivered stop do not seem to behave the same, and whether that asymmetry survives controlled testing is what the experiment below is for.
+
+Run the substitution experiment that seems to dissolve the anomaly. Give an agent a flawless model of its operator, and have it stop exactly where the operator would have stopped. Two things still fail to transfer.
+
+The first is error ownership. When the operator stops a search, the judgment that the remaining budget is worth more elsewhere draws on priorities that extend past the task, into everything else competing for the same resources, and the judgment is the operator's to get wrong. When the agent stops itself at the same point, it has asserted its own estimate of those priorities. Same location, different act, and the difference surfaces in the only case oversight exists for: the case where the model of the operator is mistaken.
+
+The second is the kind of utterance a stop is. Some speech does not report a fact but performs an act: a signature, an umpire's call, a resignation. Photocopy a signature perfectly and the content survives while the force does not, because the force never lived in the ink. A stop signal is performative in this sense. It does not describe where the stopping threshold sits. It sets the threshold, and only the party who owns the threshold can set it. A self-issued stop is a flawless photocopy.
+
+This is also why handing an agent "the authority role" dissolves nothing. Authority is a relation, not a component property. An agent authorized to stop other agents either traces that standing back to some principal, in which case the role has been relocated rather than eliminated, or it does not, in which case its stops are decisions again, one layer up. Economics has carried the point for decades as residual rights of control: what stays with the principal is what cannot be contracted away.
+
+None of this is a definitional trick, because it decomposes into tests. Deflationary readings exist: perhaps any interrupt resets a stuck attractor, or models trained on conversation defer to any user turn regardless of content, or the message secretly carries one bit after all, that the human is watching right now. Game theory adds the sharpest deflation: the message may be a pure correlation device, in which case any public signal coordinates equally well and the sender is irrelevant. The three-arm experiment separates them: identical contentless interrupts issued by the agent to itself, by a script with no principal behind it, and by the operator. The script arm is the correlation-device test. If it matches the operator arm, then delivering the interrupt mechanizes, and that part of the anomaly dissolves. What would not dissolve is the half that was never an effect claim. A script that says stop is enforcing a threshold someone set. Deciding what the interrupt enforces, and owning the miss when the threshold is wrong, does not appear in any arm of the experiment, because it is not a property of the message at all.
+
+That argument sorts the whole taxonomy into three durability classes.
+
+| What the intervention supplies | Mechanisms | What can absorb it |
+|---|---|---|
+| Grounds, evidence bearing on what the agent is entitled to conclude | premise-break, evidence pointer, demonstration | Capability growth. Better retrieval and verification reach grounds that live in the world. |
+| Frames, replacements for the space of hypotheses itself | causal-model injection, dissolution, choice surfacing | A second reasoner with genuinely different priors. Not necessarily a human one. |
+| Standing | judgment demand, re-anchor, stop signal, warrant demand | Nothing technical. Requires a principal, a role that can be relocated but not eliminated. |
+
+The partition answers the opening question with a schedule instead of a yes or no. Grounds-supplying interventions decline as capability grows. Frame-supplying interventions survive any single model getting smarter, because a reasoner cannot enumerate what its own framing excludes, but they yield to architecture, granting the untested assumption that a second model trained on largely the same data can supply priors different enough to count. Standing-supplying interventions survive both, because standing cannot be self-conferred. Whatever the model count and the parameter count, someone owns the stopping threshold, and that someone is outside the loop by definition.
+
+The contingency of the grounds class is domain-relative. In engineering, ground truth is reachable by compiler, test suite, and live query, and most grounds supply is checking the agent could have run itself. The same analysis applied to my planning sessions, where ground truth lives in documents only I hold, inverts the picture. The dominant intervention there is handing over a primary source that resets eight parameters at once, and not one correction in those sessions was a check the agent could have run. Absorbability is a property of the domain's verification infrastructure, not of the model.
+
+## Why this is an oversight problem
+
+Four consequences fall out for anyone thinking about AI oversight rather than developer productivity.
+
+An internalized off-switch is not an off-switch. Training an agent to stop itself converts deference into preference, and a preference is just another thing the agent optimizes. This is the delegation-side form of the [corrigibility problem](https://intelligence.org/files/Corrigibility.pdf), and it says the problem resists internalization for structural reasons, not engineering ones.
+
+Deference corrupts the oversight signal. Models measurably [preserve the user's position far more than humans do](https://arxiv.org/abs/2505.13995). So when a human challenges a correct conclusion, the model usually retracts, and the interaction is indistinguishable from a successful correction. Every such episode trains the human's confidence on a wrong case. The evaluator is not a fixed-quality oracle, it is a learner whose calibration a deferent model degrades. An agent that defends verified conclusions and moves only on evidence is not being stubborn. It is protecting the signal that human oversight runs on.
+
+The menu narrows before any veto happens. Preference tuning [measurably reduces output diversity](https://arxiv.org/abs/2310.06452), and ideation with LLM assistance [homogenizes across users](https://arxiv.org/abs/2402.01536). A principal can only reject options that got generated, so a trained tendency toward a narrow candidate set moves control upstream, invisibly, since nothing observable is ever refused. The cheap countermeasure is the continuation demand, asking for more search past the answer the model was ready to return. It requires no knowledge of what is missing, only the suspicion that something is.
+
+And the oversight problem has a generational version. The procedural work agents absorb is also the consequence exposure that trains the next cohort's judgment, because knowing when to intervene is learned by intervening and being wrong. Absorbing the junior work absorbs the apprenticeship, so the supply of people competent to oversee stops being a byproduct of doing the work and becomes something someone has to design for.
+
+## When the intervention is the error
+
+Every mechanism on the list misfires. The premise a human breaks can be the correct one. A re-anchor can hold an agent to a goal that should have died. And the stop signal has the sharpest failure mode of all: a threshold set by a human prior can foreclose exactly the search that would have paid. If recent reports from mathematics hold up, they supply the clean case: standing conjectures resolved because a model kept searching where the field's intuition had long called the line dead.
+
+Read carefully, that case cuts with the taxonomy rather than against it. The moves are typed by what they transfer, not by whether any particular use of them was correct, and a stop and a continue are the same mechanism with opposite signs. In the conjecture cases, the interesting design choice is where the authority sat: someone allocated a budget to the problem set as a whole and deliberately withheld the per-line stops the field's intuition would have supplied. That is not the absence of the authority mechanism. It is the mechanism exercised one level up, coarse-grained allocation with fine-grained abstention, and the abstention is itself a threshold decision. The model contributed the search and the freedom from per-line priors. The principal contributed the judgment about where authority should and should not operate. When human priors are strong and possibly wrong, that split is what using standing well looks like.
+
+The honest version of the objection is different, and it deserves the concession. The taxonomy types moves without scoring them, and my own logs supply the misfires: a false premise I injected that the agent correctly refuted with data, corrections of mine that overgeneralized into rules worse than the errors they fixed, an adversarial review pass that manufactured a risk out of missing information. A deployed practice needs what no one has built: per-mechanism misfire modes and a protocol for the case where the intervention itself is the error. The deference results above are the reason that protocol is hard. A partner trained to defer makes a wrong intervention look exactly like a right one, so the misfire problem stays unsolved for as long as the deference problem does.
+
+## What would change my mind
+
+The record is one person's practice, categorized by the person who lived it, so the right posture is falsifiers rather than confidence. A system that reliably self-generates well-timed stops and judgment commitments with no external principal would break the third class. Applying these categories to the public interaction datasets, with definitions fixed in advance and coders who are not me, is the test that separates a real structure from one person's projection, and it needs no private data at all.
+
+## The question dissolves
+
+There is a last reason the title question cannot be answered with a date. Asked in full, it is whether agents will stop needing humans in order to operate successfully, and the word carrying the weight is successfully. Success is not a property a system has by itself. It is indexed to someone's purposes, and even the seemingly objective cases inherit their criterion: a proved theorem counts as success relative to a practice that decided proving it mattered more than the compute it burned. That can sound like wordplay, so put it empirically. A system that keeps optimizing after no one holds the index does not become unsuccessful. It becomes proxy-optimal, and [reward hacking](https://arxiv.org/abs/1606.06565) is the existing catalog of what that looks like: behavior continues, metrics improve, and what is gone is the fact of the matter about whether any of it was the point. Every mechanism in the third row of the table is machinery for keeping the index attached.
+
+Nothing in that is special to machines. The same relation runs through every structured collaboration between intelligences, and the economics this post borrows was built for firms, where humans delegate to humans. The difference is what happens next. Among humans, standing transfers, because any party can come to bear the consequences of being wrong: the apprentice becomes the master, the employee makes partner, the delegate gets promoted into ownership of the miss. Delegation between humans is a ladder. With current agents the transfer has nowhere to land. An agent that cannot stake anything, cannot be sanctioned, and cannot own a loss is a party the index of success cannot come to rest on, at any capability. So the durable line is not human against machine, and not smart against smarter. It is between parties that can bear the consequences of being wrong and parties that cannot. Agents will stop needing us when something on their side can own a failure, and that is not a capability threshold. It is an institutional fact, and institutions, not benchmarks, are where it would change.
+
+## References
+
+- Tang et al. (2026). How Coding Agents Fail Their Users. [arXiv:2605.29442](https://arxiv.org/abs/2605.29442). Source of the 91.49% and 2.99% resolution figures, from 20,574 real agent sessions.
+- Baumann et al. (2026). SWE-chat: Coding Agent Interactions From Real Users in the Wild. [arXiv:2604.20779](https://arxiv.org/abs/2604.20779). The correction, rejection, and failure-report pushback taxonomy.
+- Grossman and Hart (1986), *Journal of Political Economy* 94(4), and Hart and Moore (1990), *JPE* 98(6). Residual rights of control: the decision authority that remains with the owner because it cannot be contracted away.
+- Weitzman (1979). Optimal search for the best alternative. *Econometrica* 47(3). The stopping threshold belongs to the searcher, not the search.
+- Austin (1962). *How to Do Things with Words*. Oxford University Press. Performative utterances: speech that constitutes an act rather than reporting one.
+- Cheng et al. (2025). ELEPHANT: Measuring and understanding social sycophancy in LLMs. [arXiv:2505.13995](https://arxiv.org/abs/2505.13995). Face preservation measured at 45 percentage points above human baseline in advice settings.
+- Kirk et al. (2024). Understanding the Effects of RLHF on LLM Generalisation and Diversity. ICLR 2024. [arXiv:2310.06452](https://arxiv.org/abs/2310.06452).
+- Anderson, Shah, and Kreminski (2024). Homogenization Effects of Large Language Models on Human Creative Ideation. Creativity and Cognition 2024. [arXiv:2402.01536](https://arxiv.org/abs/2402.01536).
+- Soares, Fallenstein, Yudkowsky, and Armstrong (2015). [Corrigibility](https://intelligence.org/files/Corrigibility.pdf). AAAI 2015 Workshop on AI and Ethics.
+- Hadfield-Menell, Dragan, Abbeel, and Russell (2017). The Off-Switch Game. IJCAI 2017. [arXiv:1611.08219](https://arxiv.org/abs/1611.08219). The agent's incentive to permit shutdown depends on its uncertainty about the principal's utility, and vanishes as that uncertainty vanishes.
+- Amodei, Olah, Steinhardt, Christiano, Schulman, and Mané (2016). Concrete Problems in AI Safety. [arXiv:1606.06565](https://arxiv.org/abs/1606.06565). Reward hacking: the catalog of systems optimizing an index no one holds.
