@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When the Agent Can Lose Something"
+title: "When the Agent Stands to Lose Something"
 date: 2026-07-26
 ---
 
