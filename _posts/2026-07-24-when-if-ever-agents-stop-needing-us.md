@@ -15,13 +15,13 @@ For seven months I logged my daily work with LLM coding agents on a large produc
 Nine intervention mechanisms recur. Compressed to one line each:
 
 1. **Premise-breaking fact.** One verifiable fact that collapses a plan built on an unverified premise.
-2. **Causal-model injection.** A different causal vocabulary for the search, not a correction within the current one.
+2. **Causal-model injection.** A different account of what is causing what, which changes what counts as evidence and what a fix would look like.
 3. **Direct-judgment demand.** Forcing a committed verdict where the agent wants to hedge.
 4. **Cross-context evidence pointer.** Not evidence, the location of evidence outside the agent's search scope.
-5. **Purpose re-anchor.** Re-elevating the goal the agent already knows and has stopped optimizing for.
+5. **Purpose re-anchor.** Re-elevating the goal the agent already knows and has stopped optimizing for. It changes what is being optimized, not how long the optimizing runs.
 6. **Implicit-choice surfacing.** Converting a silently applied default into a decision someone actually makes.
-7. **Stop signal.** Declaring a search line dead, or demanding search past an answer the agent was ready to accept. Same mechanism, both signs.
-8. **Requirement dissolution.** Deleting a misspecified requirement instead of iterating against it.
+7. **Stop signal.** Declaring a search line dead, or demanding search past an answer the agent was ready to accept. Same mechanism, both signs. It governs how long the search runs, and the requirement that produced the search survives it.
+8. **Requirement dissolution.** Deleting a misspecified requirement instead of iterating against it. What separates this from a stop signal is whether the search line can come back, because a dissolved requirement cannot regenerate one.
 9. **Demonstration.** Exhibiting the standard by fixing the artifact directly, used where the criterion resists statement. The hand edit is the usual channel, not the category: edits can carry any of the other mechanisms, and what makes this one distinct is a payload no instruction can replace.
 
 What's surprising in this list is that three of the nine carry no domain content at all. The judgment demand, the purpose re-anchor, and the stop signal transfer nothing the agent does not already have. They move commitment, salience, and attention. A fourth belongs to the same species: the bare demand for the evidence behind a claim already made, call it the warrant demand. It supplies nothing, and what it transfers is the obligation to answer for the claim. All four work even when the human knows less than the agent about everything under discussion. These contentless intervention categories are not interesting because they are necessarily the most valuable moves on the list. Often they are not. They matter because they enable a natural experiment. The value of an intervention has two possible sources, what the message carries and who it comes from, and the six content-bearing mechanisms mix the two inseparably. An intervention that carries nothing isolates the second source, and the second source is where the question of replacement gets decided.
