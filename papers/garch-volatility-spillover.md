@@ -12,7 +12,7 @@ citation:
 
 <article>
 <h1>Modelling Volatility and Risk Spillover Between the Financial Markets of US and China Using GARCH Value-at-Risk Forecasting and Granger Causality</h1>
-<p class="post-meta">Jongsun Suh · Dissertation, 2020</p>
+<p class="post-meta">Jongsun Suh · Undergraduate thesis, Seoul National University, 2020</p>
 
 <p>
 <a href="{{ '/assets/pdf/suh-2020-garch-volatility-spillover.pdf' | relative_url }}">PDF</a> ·
