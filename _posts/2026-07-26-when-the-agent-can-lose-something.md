@@ -4,7 +4,7 @@ title: "When the Agent Can Lose Something"
 date: 2026-07-26
 ---
 
-Agents will stop needing humans when something on their side can own a failure. That is an institutional fact, not a capability threshold, and benchmarks are the wrong place to watch for it. The claim sounds like an endpoint. It is where the interesting questions start, because "owning a failure" is not one event. It is three, and they do not arrive together.
+The day agents can own their failures will be the day they stop needing humans to operate successfully. Note that this is not a capability threshold, but an institutional status. The interesting questions start here, because "owning a failure" is not one but three staggered events.
 
 The first is legal ownership: an entity that can be sued, sanctioned, and made to forfeit assets. This one is not futurism. Ordinary organizational law can already house an autonomous system inside a memberless entity, a possibility legal scholars flagged nearly a decade ago, and at least one US state now charters algorithmically governed organizations directly. The wrapper exists today for anyone motivated to use it.
 
