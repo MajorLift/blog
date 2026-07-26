@@ -1,7 +1,7 @@
 title: Jongsun Suh
 description: Essays on oversight, agents, and delegation.
-url: "https://majorlift.github.io"
-baseurl: "/blog"
+url: "https://jongsun.dev"
+baseurl: ""
 permalink: /:title/
 plugins:
   - jekyll-feed
