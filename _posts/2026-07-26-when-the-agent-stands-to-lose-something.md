@@ -40,7 +40,7 @@ The case for that priority is usually argued from capability risk: systems get p
 
 ## If real bearers arrive
 
-Suppose the strong version happens anyway, whatever the route: agents that genuinely can be worse off. The ending then writes itself. Judgment is trained by consequence exposure, so agents that bear consequences would develop the discrimination that oversight requires, and the last piece of oversight that could not be handed off would become, at last, delegable. The human position would become that of one bearer among others.
+Suppose the strong version happens anyway, whatever the route: agents that genuinely can be worse off. The ending then writes itself. Judgment is trained by consequence exposure, so agents that bear consequences would develop the discrimination that oversight requires, including the reframes that only bearers see, and the last piece of oversight that could not be handed off would become, at last, delegable. The human position would become that of one bearer among others.
 
 The automation frame can be misleading, because that scenario does not mean automation has reached its conclusion. The actual implication is of new parties arriving in the economy with the full gamut of rights, duties, and privileges: claims on resources, standing to contest decisions, interests that compound. Entities that hold capital, do not consume, and do not die will inevitably compound faster than anything the distributional machinery was built for. Institutions met a version of this once before and answered with time-limited corporate charters, capital constraints, and dissolution rules. Those instruments would return.
 
