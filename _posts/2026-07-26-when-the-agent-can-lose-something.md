@@ -6,7 +6,7 @@ date: 2026-07-26
 
 The day agents can own their failures will be the day they stop needing humans to operate successfully. Note that this is not a capability threshold, but an institutional status. The interesting questions start here, because "owning a failure" is not one but three staggered events.
 
-The first is legal ownership: an entity that can be sued, sanctioned, and made to forfeit assets. This is not a futuristic fantasy. Ordinary organizational law can already house an autonomous system inside a memberless entity, a possibility legal scholars flagged nearly a decade ago, and Wyoming has chartered decentralized autonomous organizations as limited liability companies since 2021. The vehicle exists today for anyone motivated to use it.
+The first is legal ownership: an entity that can be sued, sanctioned, and made to forfeit assets. This is not a futuristic fantasy. Ordinary organizational law can already house an autonomous system inside a memberless entity, a possibility legal scholars flagged nearly a decade ago, and Wyoming has chartered decentralized autonomous organizations as limited liability companies since 2021. The legal vehicle exists today for anyone motivated to use it.
 
 The second is economic ownership: staked capital genuinely at risk, losses that land on the agent's own balance sheet. Economic ownership is a design choice away from legal ownership, not a research problem.
 
@@ -42,7 +42,7 @@ Suppose the strong version happens anyway, whatever the route: agents that genui
 
 The automation frame can be misleading, because that scenario does not mean automation has reached its conclusion. The actual implication is of new parties arriving in the economy with the full gamut of rights, duties, and privileges: claims on resources, standing to contest decisions, interests that compound. Entities that hold capital, do not consume, and do not die will inevitably compound faster than anything the distributional machinery was built for. Institutions met a version of this once before and answered with time-limited corporate charters, capital constraints, and dissolution rules. Those instruments would return.
 
-A point of caution: the crucial decision will not be recognizable as a distinct decision. Nobody legislated the modern corporation into existence in one act. It leaked in through case law and charter drift, and agent personhood is currently leaking the same way, through entity statutes written for other purposes. Institutions, not benchmarks, are where this changes, and institutions rarely change by announcement. The time to write the named-bearer rule is before the first vehicles are filled with agents.
+A point of caution: the crucial decision will not be recognizable as a distinct trigger event. Nobody legislated the modern corporation into existence in one act. It leaked in through case law and charter drift, and agent personhood is currently leaking the same way, through entity statutes written for other purposes. Institutions, not benchmarks, are where this changes, and institutions rarely change by announcement. The time to write the named-bearer rule is before the first agent counterparties are chartered.
 
 ## References
 
