@@ -58,7 +58,7 @@ The same exercise says what the argument does not establish. A stop that reveals
 
 ## Why this is an oversight problem
 
-From this, four consequences emerge, once we switch our focus to AI oversight rather than developer productivity.
+From this, four consequences emerge, once we switch our focus to AI oversight.
 
 An internalized off-switch is not an off-switch. Training an agent to stop itself converts deference into preference, and a preference is just another thing the agent optimizes. This is the delegation-side form of the [corrigibility problem](https://intelligence.org/files/Corrigibility.pdf), and it says the problem resists internalization for structural reasons, not engineering ones.
 
