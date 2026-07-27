@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/26"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21563155"
+  doi: "10.5281/zenodo.21610359"
 ---
 
 <article>
@@ -29,7 +29,8 @@ aggregate exposure measures cannot detect follows as a corollary.
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21563155">DOI: 10.5281/zenodo.21563155</a>
+<a href="https://doi.org/10.5281/zenodo.21610359">DOI: 10.5281/zenodo.21610359</a> ·
+<a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
 <p>Claims are scoped to the literatures surveyed. The discovery corpus is one practitioner's
