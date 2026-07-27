@@ -21,11 +21,11 @@ Years of working this way have converged on a small set of primitives. Each is a
 | Compare | discriminate between options | how do these differ |
 | Expand | widen the frame | what is not being seen |
 
-The set is not arbitrary. The six moves track the higher-order tiers of Bloom's taxonomy, and Polya's problem-solving phases map onto it almost one for one. Understanding requires decomposition, deciding requires judgment, testing requires attack, creating requires divergence, choosing requires comparison, and correcting requires expansion. What the declaration buys is the collapse of the model's guessing problem. A request to attack cannot be satisfied by praise. A request to diverge cannot be satisfied by elaborating the current option. The mode declaration is a contract the output can be checked against, and that checkability is most of the value.
+The set is not arbitrary. The six moves track the higher-order tiers of Bloom's taxonomy, and Polya's problem-solving phases map onto the set almost one for one. Understanding requires decomposition, deciding requires judgment, testing requires attack, creating requires divergence, choosing requires comparison, and correcting requires expansion. What the declaration buys is the collapse of the model's guessing problem. A request to attack cannot be satisfied by praise. A request to diverge cannot be satisfied by elaborating the current option. The mode declaration is a contract the output can be checked against, and that checkability is most of the value.
 
 ## Oscillate, do not balance
 
-The six moves come in opposed pairs. Diverge against judge. Expand against decompose. Attack against defend. The instinct is to seek a balanced middle, and the instinct is wrong. Productive thinking does not average the poles, it oscillates between them, and the oscillation has a direction: open the space, commit, attack the commitment, defend what survives, check what got excluded, refine.
+Four of the six moves form opposed pairs: diverge against judge, expand against decompose. Attack opposes the defense it provokes, and compare referees between what survives. The instinct is to seek a balanced middle, and the instinct is wrong. Productive thinking does not average the poles, it oscillates between them, and the oscillation has a direction: open the space, commit, attack the commitment, defend what survives, check what got excluded, refine.
 
 Getting stuck at either pole has a recognizable signature. Stuck diverging feels like never being able to decide. Stuck converging feels like decisiveness and is premature closure. Stuck attacking feels like rigor and is nihilism. Stuck defending feels like confidence and is confirmation. The dangerous poles are the ones that feel like virtues. Every failure mode of thinking with a model that I have logged over seven months reduces to the loop tightening around one pole while feeling productive the whole way down.
 
@@ -37,11 +37,11 @@ This has a sharp consequence: the expansion moves cannot be delegated to the mod
 
 The same asymmetry explains why the model cannot reliably attack its own output. A requested critique pass is an external interrupt. A critique the model volunteers mid-generation competes against its trained pull toward coherence and agreement, and mostly loses. Attack passes carry their own hazard: under adversarial framing, a model manufactures findings, inflating risks it has no evidence for, so the attack output needs the same evidence discipline as the original. The mode supplies a lever, not an authority.
 
-## Structure judgment, because variance is the silent killer
+## Structure judgment, because noise is the silent killer
 
 Bias gets the attention, but noise, plain inconsistency across runs and days, degrades decisions at least as much and shows no pattern anyone can catch. The remedies are old and boring, and the remedies transfer directly. Decompose any judgment that matters into a handful of factors. Score the factors independently before forming an overall view. Delay the integration until the components are done, because an early overall impression contaminates every component score after it. Check the base rate before believing the inside story. None of this is AI-specific. Even so, every one of these remedies becomes more valuable with a partner that will fluently justify whichever integrated impression arrived first.
 
-None of it works as occasional inspiration, either. A scaffold is a condition, not a procedure: the structure does not do the thinking, the structure makes the right kind of thinking likelier to happen. A gym does not make anyone strong on the days they feel like going. The schedule decides, not the mood.
+None of it works as occasional inspiration. A scaffold is a condition, not a procedure: the structure does not do the thinking, the structure makes the right kind of thinking likelier to happen. A gym does not make anyone strong on the days they feel like going. The schedule decides, not the mood.
 
 ## References
 
@@ -53,3 +53,4 @@ None of it works as occasional inspiration, either. A scaffold is a condition, n
 - Luchins (1942), *Psychological Monographs* 54(6), and Sherbino et al. (2014), *CJEM* 16(1). The paired result behind the exogeneity claim: a single external release instruction worked where trained self-applied forcing strategies produced null results.
 - Pronin, Lin, and Ross (2002). The bias blind spot. *Personality and Social Psychology Bulletin* 28(3). Why felt confidence cannot trigger the frame check.
 - Kahneman, Sibony, and Sunstein (2021). *Noise: A Flaw in Human Judgment*. Little, Brown Spark. With Dawes (1979), *American Psychologist* 34(7), the case for decomposed, independently scored, late-integrated judgment.
+
