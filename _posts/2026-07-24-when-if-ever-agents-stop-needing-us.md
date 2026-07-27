@@ -92,7 +92,7 @@ Given that the dataset currently consists of a sample of one principal, the prio
 
 The compositional prediction has a shape that can be measured rather than argued. Count the interventions of each class per session across model generations, adjusted for session length, and the prediction is a falling count for the grounds class against a flat one for standing. The test is conservative, because the obvious confound, harder tasks being handed to better models, raises the grounds count and therefore pushes against the prediction rather than toward it.
 
-The same measurement bears on a named policy argument. Brynjolfsson calls the incentive-driven tilt toward human-imitating automation [the Turing trap](https://doi.org/10.1162/daed_a_01915), and an exposure index that records only whether a human stayed in the loop cannot watch the trap closing, because the bit looks the same on either side of it. The composition can.
+The same measurement bears on policy design. Any transparency rule that requires human oversight and records it as a binary, a human was in the loop or was not, is unfalsifiable in the one case that matters, because the bit reads identical on both sides of the transition this argument predicts. A regime that recorded composition instead would be auditable against interaction records that already exist. The academic version of the same blindness is Brynjolfsson's [Turing trap](https://doi.org/10.1162/daed_a_01915), the incentive-driven tilt toward human-imitating automation, which an in-the-loop bit cannot watch closing. The composition can.
 
 ## The question dissolves
 
