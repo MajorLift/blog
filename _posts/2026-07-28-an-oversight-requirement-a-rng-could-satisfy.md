@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Oversight Requirement a Random Number Generator Could Satisfy"
-date: 2026-07-28 12:00:00 +0000
+date: 2026-07-28 00:00:00 +0000
 ---
 
 *A one-line test for rules that mandate human oversight, and the two requirement
