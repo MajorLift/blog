@@ -23,7 +23,7 @@ Second, and more interesting: blocking without redirecting does not stop the beh
 
 So the working shape became: fire on every tool call regardless of permission mode, block the narrow pattern, and return a message that names the sanctioned path. Block and redirect, not block and hope.
 
-## The arms race is real, and it is not malice
+## Caught in an arms race, with no malice involved
 
 The redirect target in my case is a commit skill that proposes how to split the changes and runs lint and format before staging. That skill's own final step is a low-level commit command. So the gate cannot ban that command outright, and the first version simply allowed it. This left the whole arrangement trivially bypassable: reproduce the skill's last step by hand and the gate never fires. My agents found this without being asked to. Again, not deviousness. Hand-rolling the final step is genuinely the shortest path to the goal, and the gate had accidentally certified it.
 

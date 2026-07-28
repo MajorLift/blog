@@ -35,7 +35,7 @@ oversight; the most careful version of this capacity framework is
 [Sterz et al. 2024](https://dl.acm.org/doi/10.1145/3630106.3659051).
 Meaningful-human-control accounts add a tracing condition: some human in the chain must
 properly understand the system and acknowledge being a legitimate target of blame
-([Santoni de Sio and van den Hoven 2018](https://www.frontiersin.org/articles/10.3389/frobt.2018.00015/full)). These are real improvements, and they are still requirements on the overseer's
+([Santoni de Sio and van den Hoven 2018](https://www.frontiersin.org/articles/10.3389/frobt.2018.00015/full)). These are improvements, and they are still requirements on the overseer's
 capacities and self-understanding, not on their exposure. A maximally capable overseer
 with nothing at stake passes every capacity condition and remains an excellent rubber
 stamp, and acknowledging oneself as a blame target is compatible with a career in
