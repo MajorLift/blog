@@ -6,6 +6,9 @@ redirect_from:
   - /when-the-agent-can-lose-something/
 ---
 
+*Owning a failure is three separate events, not one — and only one of them can't be
+legislated into existence.*
+
 The day agents can own their failures will be the day they stop needing humans to operate successfully. This is not a capability threshold, but an institutional status. The interesting questions start here, because "owning a failure" is not one but three staggered events.
 
 The first is legal ownership: an entity that can be sued, sanctioned, and made to forfeit assets. This is not a futuristic fantasy. Ordinary organizational law can already house an autonomous system inside a memberless entity, a possibility legal scholars flagged nearly a decade ago, and Wyoming has chartered decentralized autonomous organizations as limited liability companies since 2021. The legal vehicle exists today for anyone motivated to use it.
@@ -28,7 +31,7 @@ The institutional fix for this is old technology: a named-bearer rule. Every age
 
 There is an apparent shortcut. Train an agent to protect its stake and the agent behaves like a liability-sensitive actor. Deterrence is behavioral, institutions do not ask what a party feels, so maybe as-if stakes are enough.
 
-As-if stakes are enough for incentive design and not enough for the deeper question of who set up the stakes. A stake that matters only because an objective was trained to protect it is the principal relocated into the reward function, not eliminated. In game terms, the shortcut upgrades the strategy without changing the roster. Someone chose what counts as loss, and that someone is where the buck still stops. The shortcut would only become the real thing if the objective became self-maintaining and the losses irrecoverable, with no designer left holding the definition. That is the point where the claim that no mechanism can create a bearer would face its first real test, and nothing deployed today approaches this in any form.
+As-if stakes are enough for incentive design and not enough for the deeper question of who set up the stakes. A stake that matters only because an objective was trained to protect it is the principal relocated into the reward function, not eliminated. In game terms, the shortcut upgrades the strategy without changing the roster. Someone chose what counts as loss, and that someone is where the buck still stops. The shortcut would only become the real thing if the objective became self-maintaining and the losses irrecoverable, with no designer left holding the definition. That is the point where the claim that no mechanism can create a bearer would face its first real test, and nothing deployed today approaches this in any form. Even that test has two parts. Losing the author does not seat a bearer: an objective nobody holds is not yet an objective someone answers for, and an entity no training can reach and no fine can address is not a new party but the window at its widest. Admission stays a decision institutions make, the way courts steward a foundation's purpose when its founder is gone instead of promoting the paperwork.
 
 Meanwhile, one piece of the post-threshold world has been operating for decades. Market circuit breakers are machine-fired stops that halt human trading with the full force of institutional rules. The mechanism fires the stop. The exchange owns the threshold. Nobody thinks the circuit breaker has authority of its own, and nobody needs it to, because standing was conferred on the mechanism by a body that can answer for it. That is what delegated machine authority looks like when it is done correctly, and the pattern generalizes.
 

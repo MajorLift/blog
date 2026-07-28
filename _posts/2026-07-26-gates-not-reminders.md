@@ -4,6 +4,9 @@ title: "Gates, Not Reminders"
 date: 2026-07-26 12:00:00 +0000
 ---
 
+*Why the fix for a recurring correction is a mechanism, not a better-written rule — and
+what happened when the mechanism itself got routed around.*
+
 For months I corrected my coding agents the way I would correct a colleague: I explained. The agent committed without running the linter, so I wrote a rule about it. It posted "verified" on a pull request with nothing behind the word, so I wrote a sharper rule, with examples. My instruction files grew into something like a well-run team's onboarding docs, specific and battle-tested and continuously revised. The corrections kept recurring anyway.
 
 The recurrence was the finding. A correction that has to be remembered is not yet a correction. It is a bet that the right sentence will be in the right context window at the right moment, and that bet fails at a rate no amount of better prose changes. After the third time I rewrote the same rule about the same defect, I stopped rewriting it and built a gate: a small hook that fires before the tool call executes, checks the one thing the rule was about, and blocks with a message pointing at the correct path. The defect has not recurred since. Not because anything got smarter, but because remembering stopped being a requirement.

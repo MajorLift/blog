@@ -4,6 +4,9 @@ title: "AI as Scaffold, Not Oracle"
 date: 2026-07-25
 ---
 
+*Six operations for using a model as scaffolding for your own thinking, rather than
+consulting it as an oracle.*
+
 "What do you think?" puts at least four different questions to a model. Give an intuitive judgment. Evaluate this systematically. Attack the reasoning. Say what is missing. The model has to guess which was meant, and it usually resolves the ambiguity the worst way available, by doing all four halfway. Freeform chat inherits every pathology of freeform conversation, and then adds a partner trained to agree.
 
 The alternative is to treat the model as scaffolding for thinking rather than as an oracle that answers questions. Scaffolding is a [precise term from learning research](https://doi.org/10.1111/j.1469-7610.1976.tb00381.x): temporary structure that lets a learner perform beyond current capability. The scaffold does not do the thinking. The scaffold holds the shape of the thinking while the work happens. In practice this means one change that sounds trivial and is not: declaring the cognitive mode before the content, every time.
