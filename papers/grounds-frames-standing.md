@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/28"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21643612"
+  doi: "10.5281/zenodo.21643752"
 ---
 
 <article>
@@ -24,7 +24,7 @@ growth, mechanisms supplying frames yield to architecture only in part, and
 mechanisms supplying standing require a principal. Stated formally under incomplete
 contracting, expected loss from a misset delegation threshold converges to a floor set by the
 conditional dispersion of the principal's threshold, and the compositional prediction that
-aggregate exposure measures cannot detect follows as a corollary. Draft v2.1 makes the
+aggregate exposure measures cannot detect follows as a corollary. Draft v2.2 makes the
 taxonomy two-axis, what a move supplies by what it operates on, constituting the
 deliverable, rule-store, channel, and self-model families that a dual-rater cross-tier
 re-coding of the full record measures; splits the standing claim into its empirical and
@@ -40,7 +40,7 @@ above frames.
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21643612">DOI: 10.5281/zenodo.21643612</a> ·
+<a href="https://doi.org/10.5281/zenodo.21643752">DOI: 10.5281/zenodo.21643752</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
