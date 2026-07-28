@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/28"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21643752"
+  doi: "10.5281/zenodo.21648716"
 ---
 
 <article>
@@ -24,15 +24,17 @@ growth, mechanisms supplying frames yield to architecture only in part, and
 mechanisms supplying standing require a principal. Stated formally under incomplete
 contracting, expected loss from a misset delegation threshold converges to a floor set by the
 conditional dispersion of the principal's threshold, and the compositional prediction that
-aggregate exposure measures cannot detect follows as a corollary. Draft v2.2 makes the
+aggregate exposure measures cannot detect follows as a corollary. Draft v2.2 made the
 taxonomy two-axis, what a move supplies by what it operates on, constituting the
 deliverable, rule-store, channel, and self-model families that a dual-rater cross-tier
 re-coding of the full record measures; splits the standing claim into its empirical and
 constitutive components; states threshold ownership as a residual control right rather
 than an input; adds a noise arm to the experimental program, with the all-null cell
-stated in advance; and checks the institutional argument against what is being built,
-where infrastructure for autonomous agent transaction supplies settlement and control
-rather than exposure. Two results hold under every coding protocol tried:
+stated in advance; and checks the institutional argument against what is being
+built, where infrastructure for autonomous agent transaction supplies settlement and
+control rather than exposure. Draft v2.3 adds the adjudicative support the named-bearer
+rule already has, in decisions refusing to treat an automated system as a separate legal
+entity answerable for its own outputs. Two results hold under every coding protocol tried:
 work-product-directed correction is the largest family, at 37 percent of classed
 interventions, and the three durability classes order by share as grounds above standing
 above frames.
@@ -40,7 +42,7 @@ above frames.
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21643752">DOI: 10.5281/zenodo.21643752</a> ·
+<a href="https://doi.org/10.5281/zenodo.21648716">DOI: 10.5281/zenodo.21648716</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
