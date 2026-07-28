@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/28"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21636790"
+  doi: "10.5281/zenodo.21639078"
 ---
 
 <article>
@@ -24,16 +24,21 @@ growth, mechanisms supplying frames yield to architecture only in part, and
 mechanisms supplying standing require a principal. Stated formally under incomplete
 contracting, expected loss from a misset delegation threshold converges to a floor set by the
 conditional dispersion of the principal's threshold, and the compositional prediction that
-aggregate exposure measures cannot detect follows as a corollary. Draft v1.7 adds a dual-rater re-coding of the corpus under
-cross-tier raters, a three-run reliability ablation, and a composition with two
-protocol-invariant results: work-product-directed correction is the largest family, and
-the ordering of the three durability classes by share, grounds above standing above
-frames, holds under every coding protocol tried.
+aggregate exposure measures cannot detect follows as a corollary. Draft v2.0 makes the
+taxonomy two-axis, what a move supplies by what it operates on, constituting the
+deliverable, rule-store, channel, and self-model families that a dual-rater cross-tier
+re-coding of the full record measures; splits the standing claim into its empirical and
+constitutive components; states threshold ownership as a residual control right rather
+than an input; and adds a noise arm to the experimental program, with the all-null cell
+stated in advance. Two results hold under every coding protocol tried:
+work-product-directed correction is the largest family, at 37 percent of classed
+interventions, and the three durability classes order by share as grounds above standing
+above frames.
 </p>
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21636790">DOI: 10.5281/zenodo.21636790</a> ·
+<a href="https://doi.org/10.5281/zenodo.21639078">DOI: 10.5281/zenodo.21639078</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
