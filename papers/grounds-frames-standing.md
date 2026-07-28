@@ -27,8 +27,8 @@ conditional dispersion of the principal's threshold, and the compositional predi
 aggregate exposure measures cannot detect follows as a corollary. Draft v1.7 adds a dual-rater re-coding of the corpus under
 cross-tier raters, a three-run reliability ablation, and a composition with two
 protocol-invariant results: work-product-directed correction is the largest family, and
-the durability ordering, grounds above standing above frames, holds under every coding
-protocol tried.
+the ordering of the three durability classes by share, grounds above standing above
+frames, holds under every coding protocol tried.
 </p>
 
 <p>
