@@ -54,3 +54,4 @@ But the direction still seems right to me. The test is simple enough: if a corre
 - The hooks and their test suites: [agent-guardrails](https://github.com/MajorLift/agent-guardrails)
 - On what the interventions carry: [When, If Ever, Will AI Agents Stop Needing Us?](https://jongsun.dev/when-if-ever-agents-stop-needing-us/)
 - On who bears the outcome: [When the Agent Stands to Lose Something](https://jongsun.dev/when-the-agent-stands-to-lose-something/)
+- On what an oversight requirement has to demand: [An Oversight Requirement a Random Number Generator Could Satisfy](https://jongsun.dev/an-oversight-requirement-a-rng-could-satisfy/)
