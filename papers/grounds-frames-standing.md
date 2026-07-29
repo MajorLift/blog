@@ -5,9 +5,9 @@ permalink: /papers/grounds-frames-standing/
 citation:
   title: "Grounds, Frames, and Standing: Human Interventions in Agentic Work and the Limits of Delegation"
   author: "Suh, Jongsun"
-  date: "2026/07/28"
+  date: "2026/07/29"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21654087"
+  doi: "10.5281/zenodo.21682577"
 ---
 
 <article>
@@ -37,10 +37,13 @@ rule already has, in decisions refusing to treat an automated system as a separa
 entity answerable for its own outputs. Draft v2.4 gave the positional half of the
 standing claim its institutional instances: rules barring self-judgment that carry no
 exemption for demonstrated impartiality, and disclosure regimes that move a decision to
-the party whose interest is at stake rather than improving the judge. Draft v2.5 rewrites
-the front matter around what the paper became, and reports a control-condition pilot that
-finds the interrupt experiment instrument-limited, since the tasks a machine can score are
-the ones whose criteria were enumerated in advance. Two results hold under every coding protocol tried:
+the party whose interest is at stake rather than improving the judge. Draft v2.6 rewrites
+the front matter around what the paper became and leads with the evidence that the scheme
+is usable by someone other than its author, blind raters drawn from different model tiers
+agreeing at 0.77 on whether an input is an intervention and at 0.70 on its family. It also
+reports a control-condition pilot that finds the interrupt experiment instrument-limited,
+since the tasks a machine can score are the ones whose criteria were enumerated in
+advance. Two results hold under every coding protocol tried:
 work-product-directed correction is the largest family, at 37 percent of classed
 interventions, and the three durability classes order by share as grounds above standing
 above frames.
@@ -48,7 +51,7 @@ above frames.
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21654087">DOI: 10.5281/zenodo.21654087</a> ·
+<a href="https://doi.org/10.5281/zenodo.21682577">DOI: 10.5281/zenodo.21682577</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
