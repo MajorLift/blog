@@ -18,35 +18,23 @@ citation:
 When, if ever, is human intervention required for an AI agent to operate successfully? The
 field cannot answer this, because its record of intervention is content-blind: large-scale
 studies register each correction as a single undifferentiated event. This paper indexes
-interventions by epistemic content instead, and argues that what a mechanism supplies
-determines what can absorb it. Mechanisms supplying grounds are absorbable by capability
-growth, mechanisms supplying frames yield to architecture only in part, and
-mechanisms supplying standing require a principal. Stated formally under incomplete
-contracting, expected loss from a misset delegation threshold converges to a floor set by the
-conditional dispersion of the principal's threshold, and the compositional prediction that
-aggregate exposure measures cannot detect follows as a corollary. Draft v2.2 made the
-taxonomy two-axis, what a move supplies by what it operates on, constituting the
-deliverable, rule-store, channel, and self-model families that a dual-rater cross-tier
-re-coding of the full record measures; splits the standing claim into its empirical and
-constitutive components; states threshold ownership as a residual control right rather
-than an input; adds a noise arm to the experimental program, with the all-null cell
-stated in advance; and checks the institutional argument against what is being
-built, where infrastructure for autonomous agent transaction supplies settlement and
-control rather than exposure. Draft v2.3 added the adjudicative support the named-bearer
-rule already has, in decisions refusing to treat an automated system as a separate legal
-entity answerable for its own outputs. Draft v2.4 gave the positional half of the
-standing claim its institutional instances: rules barring self-judgment that carry no
-exemption for demonstrated impartiality, and disclosure regimes that move a decision to
-the party whose interest is at stake rather than improving the judge. Draft v2.6 rewrites
-the front matter around what the paper became and leads with the evidence that the scheme
-is usable by someone other than its author, blind raters drawn from different model tiers
-agreeing at 0.77 on whether an input is an intervention and at 0.70 on its family. It also
-reports a control-condition pilot that finds the interrupt experiment instrument-limited,
-since the tasks a machine can score are the ones whose criteria were enumerated in
-advance. Two results hold under every coding protocol tried:
-work-product-directed correction is the largest family, at 37 percent of classed
-interventions, and the three durability classes order by share as grounds above standing
-above frames.
+interventions by epistemic content instead, along two dimensions, what a move supplies and
+the target it operates on, and argues that what a mechanism supplies determines what can
+absorb it. Mechanisms supplying grounds are absorbable by capability growth, mechanisms
+supplying frames yield to architecture only in part, and mechanisms supplying standing
+require a principal, since standing cannot be self-conferred. Stated formally under
+incomplete contracting, expected loss from a misset delegation threshold converges to a
+floor set by the conditional dispersion of the principal's threshold, and the compositional
+prediction that aggregate exposure measures cannot detect follows as a corollary.
+A re-coding of the full 2,205-input record under blind rater pairs drawn from different
+model tiers shows the three durability classes partition the live-reasoning tier only, and
+supplies the evidence that the scheme is usable by someone other than its author: agreement
+of 0.77 on whether an input is an intervention at all and 0.70 on its family, with the gate
+figure replicating on sessions held out from the scheme's development. The residue the
+argument leaves is positional rather than a gap in capability, and institutions already
+work this way: peer review and judicial recusal bar self-judgment with no exemption for
+demonstrated impartiality. One corollary follows for oversight: every external lever of
+control, liability included, presupposes a party that can be worse off.
 </p>
 
 <p>
@@ -57,7 +45,7 @@ above frames.
 
 <p>Claims are scoped to the literatures surveyed. The discovery corpus is one practitioner's
 records and is treated as a discovery instrument rather than as evidence, with validation
-specified against public interaction corpora.</p>
+to come from re-coding public interaction corpora.</p>
 </article>
 
 <p><a href="{{ '/papers/' | relative_url }}">&larr; all papers</a></p>
