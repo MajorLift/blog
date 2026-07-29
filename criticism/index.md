@@ -6,7 +6,7 @@ permalink: /criticism/
 
 <header class="site-header">
 <h1>Criticism</h1>
-<p>Film, literature, and music. Written for a reading group, mostly in Korean.</p>
+<p>Film, literature, and music.</p>
 </header>
 
 <ul class="post-list">

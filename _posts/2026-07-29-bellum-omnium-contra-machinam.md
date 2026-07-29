@@ -5,8 +5,7 @@ date: 2026-07-29 00:00:00 +0000
 category: criticism
 ---
 
-*Saramago's white blindness as the shape of information overload, and the one place
-digital rationality may hold what Han says it cannot.*
+Written 26 June 2026, on Byung-Chul Han's *Infocracy*.
 
 In Jose Saramago's "Blindness," the afflicted see white instead of darkness. Through indiscriminate exposure to every wavelength of the spectrum all at once, without the benefit of any lens or prism or comforting ideology that could attenuate the desert of the real into a focused perception, they are epistemologically cut off from Lacan's symbolic realm (or Benjamin's optical unconscious). In this way the white blindness functions as a perverse inversion of the harsh light of truth that confronts escapees of Plato's cave, with overwhelming signal producing the same effect as sensory deprivation. In an infocracy, this mechanism is realized via proliferation of mere data and information. Omnivoyancy at dromological lightspeed supplants truth and narrative, excising all meaning and significance from the filaments of reality. Things fall apart; / the centre cannot hold. Such is the phenomenology of post-truth.
 
@@ -16,5 +15,4 @@ But this optimism may be unwarranted. What's available in principle can always f
 
 ---
 
-Written 26 June 2026, on Byung-Chul Han's *Infocracy*.
 [Original review](https://m.trevari.co.kr/bookreviews/show/9f9c742e-df19-4f79-83a0-40d234ad943f).
