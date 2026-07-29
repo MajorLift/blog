@@ -8,10 +8,12 @@ layout: default
 </header>
 
 <ul class="post-list">
-{% for post in site.posts %}
+{% for post in site.posts %}{% unless post.categories contains 'criticism' %}
 <li>
 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
 </li>
-{% endfor %}
+{% endunless %}{% endfor %}
 </ul>
+
+<p><a href="{{ '/criticism/' | relative_url }}">criticism &rarr;</a> &middot; <a href="{{ '/papers/' | relative_url }}">papers &rarr;</a></p>

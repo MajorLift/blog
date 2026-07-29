@@ -2,6 +2,7 @@
 layout: post
 title: "Bellum omnium contra machinam"
 date: 2026-07-29 00:00:00 +0000
+category: criticism
 ---
 
 *Saramago's white blindness as the shape of information overload, and the one place
