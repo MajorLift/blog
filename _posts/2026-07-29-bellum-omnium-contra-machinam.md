@@ -15,5 +15,5 @@ But this optimism may be unwarranted. What's available in principle can always f
 
 ---
 
-Written for a Trevari reading group on 한병철's 『정보의 지배』, 26 June 2026.
+Written 26 June 2026, on Byung-Chul Han's *Infocracy*.
 [Original review](https://m.trevari.co.kr/bookreviews/show/9f9c742e-df19-4f79-83a0-40d234ad943f).
