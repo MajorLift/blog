@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/29"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21682577"
+  doi: "10.5281/zenodo.21684149"
 ---
 
 <article>
@@ -34,12 +34,16 @@ figure replicating on sessions held out from the scheme's development. The resid
 argument leaves is positional rather than a gap in capability, and institutions already
 work this way: peer review and judicial recusal bar self-judgment with no exemption for
 demonstrated impartiality. One corollary follows for oversight: every external lever of
-control, liability included, presupposes a party that can be worse off.
+control, liability included, presupposes a party that can be worse off. An independent
+survey of knowledge workers reports the same shift from the outside, toward verification
+and stewardship, and supplies the human half of the loop: deference in the agent corrupts
+the signal the principal reads, and confidence in the agent reduces what the principal
+contributes.
 </p>
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21682577">DOI: 10.5281/zenodo.21682577</a> ·
+<a href="https://doi.org/10.5281/zenodo.21684149">DOI: 10.5281/zenodo.21684149</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
