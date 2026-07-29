@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/28"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21652046"
+  doi: "10.5281/zenodo.21654087"
 ---
 
 <article>
@@ -34,10 +34,13 @@ stated in advance; and checks the institutional argument against what is being
 built, where infrastructure for autonomous agent transaction supplies settlement and
 control rather than exposure. Draft v2.3 added the adjudicative support the named-bearer
 rule already has, in decisions refusing to treat an automated system as a separate legal
-entity answerable for its own outputs. Draft v2.4 gives the positional half of the
+entity answerable for its own outputs. Draft v2.4 gave the positional half of the
 standing claim its institutional instances: rules barring self-judgment that carry no
 exemption for demonstrated impartiality, and disclosure regimes that move a decision to
-the party whose interest is at stake rather than improving the judge. Two results hold under every coding protocol tried:
+the party whose interest is at stake rather than improving the judge. Draft v2.5 rewrites
+the front matter around what the paper became, and reports a control-condition pilot that
+finds the interrupt experiment instrument-limited, since the tasks a machine can score are
+the ones whose criteria were enumerated in advance. Two results hold under every coding protocol tried:
 work-product-directed correction is the largest family, at 37 percent of classed
 interventions, and the three durability classes order by share as grounds above standing
 above frames.
@@ -45,7 +48,7 @@ above frames.
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21652046">DOI: 10.5281/zenodo.21652046</a> ·
+<a href="https://doi.org/10.5281/zenodo.21654087">DOI: 10.5281/zenodo.21654087</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
