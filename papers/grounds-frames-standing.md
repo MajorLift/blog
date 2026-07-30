@@ -5,9 +5,9 @@ permalink: /papers/grounds-frames-standing/
 citation:
   title: "Grounds, Frames, and Standing: Human Interventions in Agentic Work and the Limits of Delegation"
   author: "Suh, Jongsun"
-  date: "2026/07/29"
+  date: "2026/07/30"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21684149"
+  doi: "10.5281/zenodo.21703886"
 ---
 
 <article>
@@ -38,12 +38,15 @@ control, liability included, presupposes a party that can be worse off. An indep
 survey of knowledge workers reports the same shift from the outside, toward verification
 and stewardship, and supplies the human half of the loop: deference in the agent corrupts
 the signal the principal reads, and confidence in the agent reduces what the principal
-contributes.
+contributes. Two conditions bound the argument. The frame class is absorbable only where a
+population of differing reasoners exists, so under monoculture it rejoins the irreducible
+set; and arrangements in which agents check other agents supply one another decorrelation
+but never standing none of them holds.
 </p>
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21684149">DOI: 10.5281/zenodo.21684149</a> ·
+<a href="https://doi.org/10.5281/zenodo.21703886">DOI: 10.5281/zenodo.21703886</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
