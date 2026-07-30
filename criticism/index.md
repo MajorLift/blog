@@ -2,6 +2,7 @@
 layout: default
 title: Criticism
 permalink: /criticism/
+published: false   # withheld from the site pending author review
 ---
 
 <header class="site-header">

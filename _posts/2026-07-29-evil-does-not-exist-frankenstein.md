@@ -3,11 +3,10 @@ layout: post
 title: "Evil Needs a God, but Harm Needs Only a Slope"
 date: 2026-07-29 00:01:00 +0000
 category: criticism
+published: false   # withheld from the site pending author review
 ---
 
 Written June–September 2025, on Mary Shelley's *Frankenstein* and Ryusuke Hamaguchi's *Evil Does Not Exist*.
-
-If space is warped, even the trajectory of a straight-line path bends with no recourse.
 
 Frankenstein, a narrative that descends a monistic, hierarchical, Platonic ontological structure, and *Evil Does Not Exist*, which from its title onward presupposes destructuration, the dismantling of absolute authority, and the fluidity of meaning. Under philosophical worldviews as opposed to each other as if they had come from different universes, the two works treat "evil" with entirely different focus and composition.
 
@@ -37,8 +36,6 @@ Now let us leave the surface of the ground, raise our heads, and look at the z-a
 ## 원문
 
 악은 있지만 신이 없거나, 악의 없지만 구조가 있거나.
-
-공간이 왜곡되어 있으면 직선경로의 궤적도 꼼짝없이 휜다.
 
 일원론적, 위계적인 플라톤 식 존재론 구조를 하강하는 서사의 "프랑켄슈타인"과 제목에서부터 탈구조화, 절대권위의 해체, 의미의 유동성을 전제하는 "악은 존재하지 않는다". 서로 다른 우주에서 온 것 마냥 상반되는 철학적 세계관 하에서 두 작품은 전혀 다른 초점과 구도로 "악"을 다룬다.
 

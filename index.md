@@ -16,4 +16,4 @@ layout: default
 {% endunless %}{% endfor %}
 </ul>
 
-<p><a href="{{ '/criticism/' | relative_url }}">criticism &rarr;</a> &middot; <a href="{{ '/papers/' | relative_url }}">papers &rarr;</a></p>
+<p><a href="{{ '/papers/' | relative_url }}">papers &rarr;</a></p>
