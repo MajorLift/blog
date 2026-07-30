@@ -6,3 +6,13 @@ permalink: /:title/
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+
+# scripts/ is tooling, not content. Jekyll copies unrecognised files into the
+# build, which published scripts/regen.py at /scripts/regen.py -- guard lists,
+# sentinels and local paths included. Anything added here that is not a page
+# needs an exclude entry in the same change.
+exclude:
+  - scripts
+  - vendor
+  - Gemfile
+  - Gemfile.lock
