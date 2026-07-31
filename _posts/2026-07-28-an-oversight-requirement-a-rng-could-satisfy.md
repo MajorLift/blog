@@ -58,6 +58,23 @@ mixture of two things with opposite policy implications: a component you could b
 a noise source at the price of randomness, and a component that exists only because a
 particular party holds the criterion and eats the miss.
 
+That split is one term short, and the missing term decides how the test should be written.
+Between noise and ownership sits an interrupt policy trained on a particular overseer's
+history of interruptions. Such a policy is not random, because when it fires carries
+information: it has learned where one person's threshold sits, and it fires there. Nor does
+it own anything, because a schedule extracted from someone's record is still enforcing a
+threshold that person set. Timing is learnable. The criterion is not. That is the sharpest
+form of the distinction, because it survives the case where the machine's behavior is
+indistinguishable from the overseer's.
+
+So the one-line test has a harder version, and the harder version is the one worth
+applying. A random number generator is the weak falsifier: a requirement can fail it and
+still be empty, because clearing a noise source is a low bar. Ask instead whether a policy
+trained on the overseer's own past decisions could satisfy the requirement as written.
+Nearly every requirement that survives the noise test fails that one, and the reason is
+visible once stated. Requirements describe when the human acts. Almost none describe what
+the human answers for, and the first is exactly the part a trained policy reproduces.
+
 Institutions that take oversight seriously already split the mixture, and it is worth
 noticing how they do it. Risk-limiting election audits draw ballots at random. Tax
 authorities audit at random. Athens allocated most public offices by lot. In every
