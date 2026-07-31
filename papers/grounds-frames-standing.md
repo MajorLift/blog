@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21720335"
+  doi: "10.5281/zenodo.21722465"
 ---
 
 <article>
@@ -49,7 +49,7 @@ holds.
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21720335">DOI: 10.5281/zenodo.21720335</a> ·
+<a href="https://doi.org/10.5281/zenodo.21722465">DOI: 10.5281/zenodo.21722465</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
