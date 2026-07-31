@@ -39,9 +39,12 @@ survey of knowledge workers reports the same shift from the outside, toward veri
 and stewardship, and supplies the human half of the loop: deference in the agent corrupts
 the signal the principal reads, and confidence in the agent reduces what the principal
 contributes. Two conditions bound the argument. The frame class is absorbable only where a
-population of differing reasoners exists, so under monoculture it rejoins the irreducible
-set; and arrangements in which agents check other agents supply one another decorrelation
-but never standing none of them holds.
+population of differing reasoners exists, and monoculture closes that route without making
+frames irreducible: procedural and representational sources survive it, and because no
+frame can be requested by name, their supply turns on a decision to invoke that the
+executor does not own, which relocates the burden onto standing. And arrangements in which
+agents check other agents supply one another decorrelation but never standing none of them
+holds.
 </p>
 
 <p>
@@ -53,6 +56,12 @@ but never standing none of them holds.
 <p>Claims are scoped to the literatures surveyed. The discovery corpus is one practitioner's
 records and is treated as a discovery instrument rather than as evidence, with validation
 to come from re-coding public interaction corpora.</p>
+
+<p>A fifteen-page treatment of the same argument, carrying the pilot evidence and the
+research program without the formal appendix or the full methodological record, is
+available as
+<a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">a research
+proposal</a>.</p>
 </article>
 
 <p><a href="{{ '/papers/' | relative_url }}">&larr; all papers</a></p>
