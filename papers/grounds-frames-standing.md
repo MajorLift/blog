@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21731423"
+  doi: "10.5281/zenodo.21731512"
 ---
 
 <article>
@@ -15,7 +15,7 @@ citation:
 <p class="post-meta">Jongsun Suh · Working preprint, 2026 · companion: <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">the taxonomy and its measurement</a> · shorter treatment: <a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">research proposal</a></p>
 
 <p>
-What a mechanism supplies determines what can absorb it. This paper takes one premise from its companion paper, a thirteen-mechanism inventory of human interventions in the work of LLM agents, and derives from that premise which of the three durability classes of human oversight are absorbable, by what, and which is irreducible. The premise is the inventory alone. The discovery corpus that produced the inventory, the survey that named it, and the reliability measurements that bound it stay with the companion, and no derivation here rests on them. Where the composition figures are used, in Sections 6.3 and 11, they arrive at the companion's evidence grade and Section 11 states the bound that scopes them. If the inventory is approximately right, whoever assembled it and in whatever domain, the results hold. If the inventory is not approximately right, the results degrade from derivations to observations of one practice.
+What a mechanism supplies determines what can absorb it. This paper takes one premise from its companion paper, a thirteen-mechanism inventory of human interventions in the work of LLM agents, and derives from that premise which of the three durability classes of human oversight are absorbable, by what, and which is irreducible. The premise is the inventory alone. The discovery corpus that produced the inventory, the survey that named it, and the reliability measurements that bound it stay with the companion, and no derivation here rests on them. Where the composition figures are used, in Sections 6.3 and 11, they arrive at the companion's evidence grade and Section 11 states the bound that scopes them. If the inventory is approximately right, whoever assembled it and in whatever domain, the results hold. If the inventory is not approximately right, the results degrade from derivations to observations of one practice. The inventory's own portability is bounded in the same spirit: the mechanism list transfers across substrates while its couplings do not, and a minority of mechanisms run with the sign of their human-literature analog inverted, which is a difference in what the move does rather than in how much of it is needed.
 </p>
 
 <p>
@@ -40,7 +40,7 @@ The policy-facing corollary is compositional: the grounds-shaped fraction of hum
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21731423">DOI: 10.5281/zenodo.21731423</a> ·
+<a href="https://doi.org/10.5281/zenodo.21731512">DOI: 10.5281/zenodo.21731512</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
