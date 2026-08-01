@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-epistemic-content-taxonomy.pdf
-  doi: "10.5281/zenodo.21744424"
+  doi: "10.5281/zenodo.21746510"
 ---
 
 <article>
@@ -23,11 +23,11 @@ From seven months of documented practice, this paper derives nine recurring inte
 </p>
 
 <p>
-Re-coding the corpus's full 2,205-input record forced the scheme into two axes: alongside its content class, every intervention carries a target, whether the live reasoning, the deliverable, the rule store, the communication channel, or the agent's self-model. The same re-coding measured the original inventory's coverage. The thirteen mechanisms cover roughly a third of coded interventions rather than seven-eighths, and the 14 percent of inputs a single-pass coder flagged as unmappable, the figure that prompted the re-code, is a floor rather than an estimate.
+Re-coding the corpus's full 2,205-input record forced the scheme into two axes: alongside its content class, every intervention carries a target, whether the live reasoning, the deliverable, the rule store, the communication channel, or the agent's self-model. Under that scheme the classes descended from the unmapped residue carry 555 of the 1,094 coded interventions against 407 for the original thirteen, which is not a like-for-like revision of the 14 percent that prompted the re-code but does place a substantial share of the record outside the original inventory.
 </p>
 
 <p>
-The measurement that matters for a taxonomy is whether raters other than its author can apply it. Blind rater pairs drawn from different model tiers reach a kappa of 0.77 on whether an input is an intervention at all and 0.70 on its content family once labeling conventions are pinned, against a same-family upper bound of 0.86. The family figure is the third of three passes over one corpus, and the conventions that lifted it were derived from the first pass's disagreements, so the runs are a sequence rather than a design. On sessions held out from the scheme's development the gate replicates at 0.82 while family agreement falls to 0.58. Those two figures rest on different samples, the gate computed over all 93 held-out items, the family figure over the 19 items both raters called an intervention, so the family axis is the weaker measurement and its held-out point estimate reads as an order of magnitude rather than a value. Neither figure bounds the composition shares, which were produced under a later scheme version after the author adjudicated the contested rows, and no reliability figure attaches to that instrument.
+The measurement that matters for a taxonomy is whether raters other than its author can apply it. Blind rater pairs drawn from different model tiers reach a kappa of 0.77 on whether an input is an intervention at all and 0.70 on its content family once labeling conventions are pinned, against a same-family upper bound of 0.86. The family figure is the third of three passes over one corpus, and the conventions that lifted it were derived from the first pass's disagreements, so the runs are a sequence rather than a design. On sessions held out from the scheme's development the gate replicates at 0.82 while family agreement falls to 0.58. Those two figures rest on different samples, the gate computed over all 93 held-out items, the family figure over the 19 items both raters called an intervention, so the family axis is the weaker measurement. Neither figure bounds the composition shares, which come from a later, author-adjudicated instrument that carries no reliability figure of its own.
 </p>
 
 <p>
@@ -36,7 +36,7 @@ The corpus is one practitioner's records, a discovery instrument rather than evi
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-epistemic-content-taxonomy.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21744424">DOI: 10.5281/zenodo.21744424</a> ·
+<a href="https://doi.org/10.5281/zenodo.21746510">DOI: 10.5281/zenodo.21746510</a> ·
 <a href="https://doi.org/10.5281/zenodo.21730478">all versions</a>
 </p>
 

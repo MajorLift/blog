@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21744427"
+  doi: "10.5281/zenodo.21746513"
 ---
 
 <article>
@@ -32,7 +32,7 @@ Under incomplete contracting, capability improves inference from a fixed informa
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21744427">DOI: 10.5281/zenodo.21744427</a> ·
+<a href="https://doi.org/10.5281/zenodo.21746513">DOI: 10.5281/zenodo.21746513</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
