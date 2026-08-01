@@ -12,7 +12,7 @@ citation:
 
 <article>
 <h1>Grounds, Frames, and Standing: Human Intervention in Agentic Work — A Research Proposal</h1>
-<p class="post-meta">Jongsun Suh · Research proposal, 2026 · full treatment: <a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">technical paper</a></p>
+<p class="post-meta">Jongsun Suh · Research proposal, 2026 · full treatment in two papers: <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">the taxonomy</a> and <a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">its entailments</a></p>
 
 <p>
 When, if ever, is human intervention required for an AI agent to operate successfully? The
@@ -59,10 +59,14 @@ over the same window in which the effect of improving models is the quantity of 
 <a href="https://doi.org/10.5281/zenodo.21719008">all versions</a>
 </p>
 
-<p>The full technical paper, with the complete mechanism inventory, the formal appendix, the
-failure-mode taxonomy, and the full methodological record, is
-<a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">deposited separately</a>
-and is cited throughout as the technical companion.</p>
+<p>The full treatment is deposited as two papers, split on 2026-07-31 along the argument's
+dependency graph. The taxonomy half, carrying the mechanism inventory, the discovery corpus,
+the coding scheme and its reliability measurements, and the literature survey, is
+<a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">An Epistemic-Content
+Taxonomy of Human Intervention in Agentic Collaboration</a>. The entailment half, deriving
+which classes of intervention are absorbable and which is not, is
+<a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">Grounds, Frames, and
+Standing</a>. Both are cited throughout as the technical companions.</p>
 </article>
 
 <p><a href="{{ '/papers/' | relative_url }}">&larr; all papers</a></p>
