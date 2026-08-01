@@ -3,7 +3,6 @@ layout: post
 title: "After Yang, Farewell, and What Death Is For"
 date: 2026-07-29 00:02:00 +0000
 category: criticism
-published: false   # withheld from the site pending author review
 categories: criticism
 ---
 

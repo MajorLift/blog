@@ -3,7 +3,6 @@ layout: post
 title: "Evil Needs a God, but Harm Needs Only a Slope"
 date: 2026-07-29 00:01:00 +0000
 category: criticism
-published: false   # withheld from the site pending author review
 categories: criticism
 ---
 
