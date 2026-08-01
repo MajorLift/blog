@@ -10,7 +10,7 @@ permalink: /papers/
 
 <ul class="post-list">
 <li>
-<time datetime="2026-07-31">2026</time>
+<time datetime="2026-07-31">2026 &middot; Proposal</time>
 <a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">Human Intervention in Agentic Work: A Measurement Scheme, Pilot Evidence, and a Research Program</a>
 </li>
 <li>
