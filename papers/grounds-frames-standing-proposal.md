@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing-proposal.pdf
-  doi: "10.5281/zenodo.21722472"
+  doi: "10.5281/zenodo.21740649"
 ---
 
 <article>
@@ -55,7 +55,7 @@ over the same window in which the effect of improving models is the quantity of 
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing-proposal.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21722472">DOI: 10.5281/zenodo.21722472</a> ·
+<a href="https://doi.org/10.5281/zenodo.21740649">DOI: 10.5281/zenodo.21740649</a> ·
 <a href="https://doi.org/10.5281/zenodo.21719008">all versions</a>
 </p>
 
