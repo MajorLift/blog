@@ -4,6 +4,7 @@ title: "Bellum omnium contra machinam"
 date: 2026-07-29 00:00:00 +0000
 category: criticism
 published: false   # withheld from the site pending author review
+categories: criticism
 ---
 
 Written 26 June 2026, on Byung-Chul Han's *Infocracy*.

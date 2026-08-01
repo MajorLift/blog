@@ -4,6 +4,7 @@ title: "Evil Needs a God, but Harm Needs Only a Slope"
 date: 2026-07-29 00:01:00 +0000
 category: criticism
 published: false   # withheld from the site pending author review
+categories: criticism
 ---
 
 Written June–September 2025, on Mary Shelley's *Frankenstein* and Ryusuke Hamaguchi's *Evil Does Not Exist*.
