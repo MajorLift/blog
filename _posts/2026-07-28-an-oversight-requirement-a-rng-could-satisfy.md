@@ -27,7 +27,7 @@ category of a fully automated decision
 empirical flank keeps filling in: overseers exhibit automation bias, defer to the
 system they are supposedly checking, and in some settings a human in the loop makes
 outcomes worse. None of this needs restating. What needs stating is why the standard
-repairs still fail the one-line test, and what would pass it.
+repairs still fail the one-line test, and the two elements a passing requirement must contain.
 
 The standard repairs strengthen the human. Give the overseer epistemic access, causal
 power, self-control, and fitting intentions, and the arrangement counts as effective
@@ -49,19 +49,19 @@ oversight measurably contributes may not be judgment at all. It may be perturbat
 The studies that find human feedback improves an automated process measures against
 the same baseline, no feedback, and that baseline cannot distinguish the value of the
 overseer's intelligence from the value of being interrupted at all. Optimization has
-known this forever: random restarts rescue search from local minima, and nobody credits
-the random number generator with judgment. Programmers have known it as folklore since
-before the field had a name, because explaining a bug to a rubber duck fixes it, and
-the duck contributes cadence, not insight. I have found no study that includes a randomized-interrupt
+treated this as standard technique forever: random restarts rescue search from local
+minima, and the random number generator gets no credit for judgment. The same point has
+lived in programming folklore since before the field had a name: explaining a bug to a
+rubber duck fixes it, and the duck contributes cadence, not insight. I have found no study that includes a randomized-interrupt
 arm. Until it does, every measured benefit of a human in the loop is an unresolved
-mixture of two things with opposite policy implications: a component you could buy from
-a noise source at the price of randomness, and a component that exists only because a
+mixture of two things with opposite policy implications: a component that can be bought
+from a noise source at the price of randomness, and a component that exists only because a
 particular party holds the criterion and eats the miss.
 
 That split is one term short, and the missing term decides how the test should be written.
 Between noise and ownership sits an interrupt policy trained on a particular overseer's
-history of interruptions. Such a policy is not random, because when it fires carries
-information: it has learned where one person's threshold sits, and it fires there. Nor does
+history of interruptions. Such a policy is not random, because its timing carries
+information: the policy has learned where one person's threshold sits, and fires there. Nor does
 it own anything, because a schedule extracted from someone's record is still enforcing a
 threshold that person set. Timing is learnable. The criterion is not. That is the sharpest
 form of the distinction, because it survives the case where the machine's behavior is
@@ -96,7 +96,7 @@ arrangement that cannot answer with a name has automated its oversight already,
 whatever the org chart says. And the one-line test returns as the falsifier: a random
 number generator can be present, can interrupt, can escalate at a calibrated rate, and
 can even improve outcomes. It cannot own a criterion, because a source whose misses
-land on no one can administer a standard but not own one. Any requirement an RNG could
+land on no one can administer a standard but not own one. Any requirement a random number generator could
 satisfy has confused the part of oversight that was always automatable with the part
 that is not an input at all.
 
