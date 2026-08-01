@@ -14,8 +14,12 @@ permalink: /papers/
 <a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">Grounds, Frames, and Standing: Human Intervention in Agentic Work &mdash; A Research Proposal</a>
 </li>
 <li>
-<time datetime="2026-07-26">2026</time>
-<a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">Grounds, Frames, and Standing: Human Interventions in Agentic Work and the Limits of Delegation</a>
+<time datetime="2026-07-31">2026</time>
+<a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">An Epistemic-Content Taxonomy of Human Intervention in Agentic Collaboration</a>
+</li>
+<li>
+<time datetime="2026-07-31">2026</time>
+<a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">Grounds, Frames, and Standing: The Absorbable and Irreducible Classes of Human Intervention in Agentic Work</a>
 </li>
 <li>
 <time datetime="2020-06-01">2020</time>
