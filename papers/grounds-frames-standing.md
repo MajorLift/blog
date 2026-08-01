@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing.pdf
-  doi: "10.5281/zenodo.21739747"
+  doi: "10.5281/zenodo.21740142"
 ---
 
 <article>
@@ -40,7 +40,7 @@ The policy-facing corollary is compositional: the grounds-shaped fraction of hum
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21739747">DOI: 10.5281/zenodo.21739747</a> ·
+<a href="https://doi.org/10.5281/zenodo.21740142">DOI: 10.5281/zenodo.21740142</a> ·
 <a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
 </p>
 
