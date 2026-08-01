@@ -12,7 +12,7 @@ citation:
 
 <article>
 <h1>Grounds, Frames, and Standing: Human Intervention in Agentic Work — A Research Proposal</h1>
-<p class="post-meta">Jongsun Suh · Research proposal, 2026</p>
+<p class="post-meta">Jongsun Suh · Research proposal, 2026 · full treatment: <a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">technical paper</a></p>
 
 <p>
 When, if ever, is human intervention required for an AI agent to operate successfully? The

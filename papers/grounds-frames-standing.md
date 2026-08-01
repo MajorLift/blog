@@ -12,7 +12,7 @@ citation:
 
 <article>
 <h1>Grounds, Frames, and Standing: Human Interventions in Agentic Work and the Limits of Delegation</h1>
-<p class="post-meta">Jongsun Suh · Working preprint, 2026</p>
+<p class="post-meta">Jongsun Suh · Working preprint, 2026 · shorter treatment: <a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">research proposal</a></p>
 
 <p>
 When, if ever, is human intervention required for an AI agent to operate successfully? The
