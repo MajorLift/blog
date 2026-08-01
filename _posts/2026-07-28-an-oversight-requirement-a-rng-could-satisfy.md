@@ -31,7 +31,7 @@ repairs still fail the one-line test, and what would pass it.
 
 The standard repairs strengthen the human. Give the overseer epistemic access, causal
 power, self-control, and fitting intentions, and the arrangement counts as effective
-oversight; the most careful version of this capacity framework is
+oversight. The fullest statement of this capacity framework is
 [Sterz et al. 2024](https://dl.acm.org/doi/10.1145/3630106.3659051).
 Meaningful-human-control accounts add a tracing condition: some human in the chain must
 properly understand the system and acknowledge being a legitimate target of blame
@@ -46,13 +46,13 @@ in which oversight failure lands on no one who signs.
 Here is the part I have not seen stated as doctrine, though the evidence for it has
 been accumulating in an adjacent field for decades. A substantial fraction of what
 oversight measurably contributes may not be judgment at all. It may be perturbation.
-Every study that finds human feedback improves an automated process measures against
+The studies that find human feedback improves an automated process measures against
 the same baseline, no feedback, and that baseline cannot distinguish the value of the
 overseer's intelligence from the value of being interrupted at all. Optimization has
 known this forever: random restarts rescue search from local minima, and nobody credits
 the random number generator with judgment. Programmers have known it as folklore since
 before the field had a name, because explaining a bug to a rubber duck fixes it, and
-the duck contributes cadence, not insight. Oversight research has never run its placebo
+the duck contributes cadence, not insight. I have found no study that includes a randomized-interrupt
 arm. Until it does, every measured benefit of a human in the loop is an unresolved
 mixture of two things with opposite policy implications: a component you could buy from
 a noise source at the price of randomness, and a component that exists only because a
@@ -68,7 +68,7 @@ form of the distinction, because it survives the case where the machine's behavi
 indistinguishable from the overseer's.
 
 So the one-line test has a harder version, and the harder version is the one worth
-applying. A random number generator is the weak falsifier: a requirement can fail it and
+applying. A random number generator is the weak falsifier: a requirement can clear it and
 still be empty, because clearing a noise source is a low bar. Ask instead whether a policy
 trained on the overseer's own past decisions could satisfy the requirement as written.
 Nearly every requirement that survives the noise test fails that one, and the reason is

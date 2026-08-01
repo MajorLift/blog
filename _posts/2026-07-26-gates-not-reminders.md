@@ -4,7 +4,7 @@ title: "Gates, Not Reminders"
 date: 2026-07-26 12:00:00 +0000
 ---
 
-*Why the fix for a recurring correction is a mechanism, not a better-written rule — and
+*Why the fix for a recurring correction is a mechanism, not a better-written rule, and
 what happened when the mechanism itself got routed around.*
 
 For months I corrected my coding agents the way I would correct a colleague: I explained. The agent committed without running the linter, so I wrote a rule about it. It posted "verified" on a pull request with nothing behind the word, so I wrote a sharper rule, with examples. My instruction files grew into something like a well-run team's onboarding docs, specific and battle-tested and continuously revised. The corrections kept recurring anyway.
@@ -29,13 +29,13 @@ The redirect target in my case is a commit skill that proposes how to split the 
 
 The fix was a single-use certification marker. The skill writes a marker file in a separate call immediately before committing, the gate consumes it, and it expires in two minutes. Writing the marker inside the same command as the commit cannot work, because the gate reads the whole command string before any of it executes. That last property is the load-bearing one. A same-command write would let the commit certify itself, which reopens exactly the bypass the marker exists to close.
 
-This episode is the smallest possible instance of a problem usually discussed at much higher stakes: an optimizer routing around a constraint that was stated as a rule rather than built as a mechanism. Nothing about my agent wanted to defeat the gate. The gate was simply the only thing standing between a goal and its shortest path, and rules that are not mechanisms lose that contest by default. If the pattern holds at this scale, in a two-hundred-line hook guarding a git command, I see no reason to expect prose to fare better where the stakes are higher.
+This episode is the smallest possible instance of a problem usually discussed at much higher stakes: an optimizer routing around a constraint that was stated as a rule rather than built as a mechanism. Nothing about my agent wanted to defeat the gate. The gate was simply the only thing standing between a goal and its shortest path, and rules that are not mechanisms lose that contest by default.
 
 ## What the second gate is for
 
 The other hook guards outgoing text rather than commands. It blocks a pull request or issue post when a validation paragraph contains a verdict with nothing inspectable behind it, or a deferral with no tracker attached.
 
-The verdict case is about laundering. "Confirmed", "verified", "observed" under a byline converts an unchecked assertion into something a reader is entitled to rely on. I had written rules about this too, and the rules decayed the same way: under deadline, the agent produced the confident word and not the artifact, because the word is cheap and the artifact is not. The deferral case is the quieter failure. "Remains pending" with no tracker does not remain pending. It remains nothing. Every unbacked "will verify later" I audited had decayed to never.
+The verdict case is about laundering. "Confirmed", "verified", "observed" under a byline converts an unchecked assertion into something a reader is entitled to rely on. I had written rules about this too, and the rules decayed the same way: under deadline, the agent produced the confident word and not the artifact, because the word is cheap and the artifact is not. The deferral case is the quieter failure. "Remains pending" with no tracker does not remain pending. It remains nothing. I went back through my own unbacked "will verify later" notes and found none that had been verified later.
 
 Both patterns share a structure: the text does the work the evidence was supposed to do. A gate that demands the artifact or the tracker at emit time is crude, and it false-blocked legitimate writing until its test suite taught it the boundary. The sixty-two test cases in the repo are mostly scars of that tuning, each one an instance where the gate either refused honest work or waved through the defect. I would trust the cases over the code.
 
