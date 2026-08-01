@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Human Intervention in Agentic Work: A Measurement Scheme and the Programme That Would Settle It"
+title: "Human Intervention in Agentic Work: A Measurement Scheme, Pilot Evidence, and a Research Program"
 permalink: /papers/grounds-frames-standing-proposal/
 citation:
-  title: "Human Intervention in Agentic Work: A Measurement Scheme and the Programme That Would Settle It"
+  title: "Human Intervention in Agentic Work: A Measurement Scheme, Pilot Evidence, and a Research Program"
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing-proposal.pdf
-  doi: "10.5281/zenodo.21741163"
+  doi: "10.5281/zenodo.21741218"
 ---
 
 <article>
-<h1>Human Intervention in Agentic Work: A Measurement Scheme and the Programme That Would Settle It</h1>
+<h1>Human Intervention in Agentic Work: A Measurement Scheme, Pilot Evidence, and a Research Program</h1>
 <p class="post-meta">Jongsun Suh · Research proposal, 2026 · full treatment in two papers: <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">the taxonomy</a> and <a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">its entailments</a></p>
 
 <p>
@@ -55,7 +55,7 @@ over the same window in which the effect of improving models is the quantity of 
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing-proposal.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21741163">DOI: 10.5281/zenodo.21741163</a> ·
+<a href="https://doi.org/10.5281/zenodo.21741218">DOI: 10.5281/zenodo.21741218</a> ·
 <a href="https://doi.org/10.5281/zenodo.21719008">all versions</a>
 </p>
 
