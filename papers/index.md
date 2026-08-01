@@ -11,7 +11,7 @@ permalink: /papers/
 <ul class="post-list">
 <li>
 <time datetime="2026-07-31">2026</time>
-<a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">Grounds, Frames, and Standing: Human Intervention in Agentic Work &mdash; A Research Proposal</a>
+<a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">Human Intervention in Agentic Work: A Measurement Scheme and the Programme That Would Settle It</a>
 </li>
 <li>
 <time datetime="2026-07-31">2026</time>
