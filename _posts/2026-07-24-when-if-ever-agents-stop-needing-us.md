@@ -115,4 +115,3 @@ None of this is unique to machines. The same relation runs through every structu
 - Brynjolfsson (2022). The Turing Trap: The Promise and Peril of Human-Like Artificial Intelligence. [*Daedalus* 151(2)](https://doi.org/10.1162/daed_a_01915). Automation versus augmentation as a choice that incentives distort.
 - Brynjolfsson, Li, and Raymond (2025). Generative AI at Work. [*Quarterly Journal of Economics*](https://doi.org/10.1093/qje/qjae044). Call-center field data: the least-experienced workers gain most from generative assistance.
 - Noy and Zhang (2023). Experimental evidence on the productivity effects of generative artificial intelligence. [*Science* 381](https://doi.org/10.1126/science.adh2586). Writing tasks: assistance compresses the performance gap between stronger and weaker workers.
-
