@@ -7,7 +7,7 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-epistemic-content-taxonomy.pdf
-  doi: "10.5281/zenodo.21746510"
+  doi: "10.5281/zenodo.21730478"
 ---
 
 <article>
@@ -36,7 +36,7 @@ The corpus is one practitioner's records, a discovery instrument rather than evi
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-epistemic-content-taxonomy.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21746510">DOI: 10.5281/zenodo.21746510</a> ·
+<a href="https://doi.org/10.5281/zenodo.21730478">DOI: 10.5281/zenodo.21730478</a> ·
 <a href="https://doi.org/10.5281/zenodo.21730478">all versions</a>
 </p>
 
