@@ -35,7 +35,7 @@ oversight. The fullest statement of this capacity framework is
 [Sterz et al. 2024](https://dl.acm.org/doi/10.1145/3630106.3659051).
 Meaningful-human-control accounts add a tracing condition: some human in the chain must
 properly understand the system and acknowledge being a legitimate target of blame
-([Santoni de Sio and van den Hoven 2018](https://www.frontiersin.org/articles/10.3389/frobt.2018.00015/full)). These conditions bind where presence does not, and they are still requirements on
+([Santoni de Sio and van den Hoven 2018](https://www.frontiersin.org/articles/10.3389/frobt.2018.00015/full)). These conditions bind where presence does not, but they are still requirements on
 the overseer's capacities and self-understanding, not on their exposure. A maximally capable overseer
 with nothing at stake passes every capacity condition and remains an excellent rubber
 stamp, and acknowledging oneself as a blame target is compatible with a career in
@@ -46,7 +46,7 @@ in which oversight failure lands on no one who signs.
 Here is the part I have not seen stated as doctrine, though the evidence for it has
 been accumulating in an adjacent field for decades. A substantial fraction of what
 oversight measurably contributes may not be judgment at all. It may be perturbation.
-The studies that find human feedback improves an automated process measures against
+The studies that find human feedback improves an automated process measure against
 the same baseline, no feedback, and that baseline cannot distinguish the value of the
 overseer's intelligence from the value of being interrupted at all. Optimization has
 treated this as standard technique forever: random restarts rescue search from local
@@ -73,18 +73,17 @@ still be empty, because clearing a noise source is a low bar. Ask instead whethe
 trained on the overseer's own past decisions could satisfy the requirement as written.
 Nearly every requirement that survives the noise test fails that one, and the reason is
 visible once stated. Requirements describe when the human acts. Almost none describe what
-the human answers for, and the first is exactly the part a trained policy reproduces.
+the human answers for, and the timing is exactly the part a trained policy reproduces.
 
-Institutions that take oversight seriously already split the mixture, and it is worth
-noticing how they do it. Risk-limiting election audits draw ballots at random. Tax
+Institutions that take oversight seriously already split the mixture. Risk-limiting
+election audits draw ballots at random. Tax
 authorities audit at random. Athens allocated most public offices by lot. In every
 case, the randomness is the mechanism and never the authority: the lottery decides
 which ballots get checked precisely so that no official's discretion can be captured,
 while the decision that elections shall be audited, to what confidence level, and what
 happens when the audit fails, is owned by a named institution that answers for it.
 Noise inside an owned criterion is mature oversight design. Noise as the criterion is
-nothing at all. The institutions that use randomness best are the ones that would never
-mistake it for an overseer.
+nothing at all.
 
 So the requirement worth writing has two elements, and neither is presence. First,
 criterion ownership: a named party holds the success criterion, including the right to
