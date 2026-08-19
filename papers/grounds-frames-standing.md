@@ -12,7 +12,7 @@ citation:
 
 <article>
 <h1>Grounds, Frames, and Standing: The Absorbable and Irreducible Classes of Human Intervention in Agentic Work</h1>
-<p class="post-meta">Jongsun Suh · Working preprint, 2026 · companion: <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">the taxonomy and its measurement</a> · shorter treatment: <a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">research proposal</a></p>
+<p class="post-meta">Jongsun Suh · Working preprint, 2026 · companions: <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">the taxonomy and its measurement</a> · <a href="https://doi.org/10.5281/zenodo.21822225">the instruments and their controls</a> · shorter treatment: <a href="{{ '/papers/grounds-frames-standing-proposal/' | relative_url }}">research proposal</a></p>
 
 <p>
 Task-level studies of AI exposure record a human-AI interaction as one automation-versus-augmentation bit, and an index built on that bit can report stability across exactly the period in which the character of human work inverts. The bit has a composition, and the parts of the composition have different fates under capability growth. This paper derives those fates.
@@ -32,8 +32,8 @@ Under incomplete contracting, capability improves inference from a fixed informa
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21746513">DOI: 10.5281/zenodo.21746513</a> ·
-<a href="https://doi.org/10.5281/zenodo.21563154">all versions</a>
+<a href="https://doi.org/10.5281/zenodo.21563154">DOI: 10.5281/zenodo.21563154</a> ·
+<a href="https://doi.org/10.5281/zenodo.21746513">this version</a>
 </p>
 
 <p>This paper was one document with its companion through v2.11. The split follows the
