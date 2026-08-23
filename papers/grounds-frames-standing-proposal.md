@@ -7,12 +7,12 @@ citation:
   author: "Suh, Jongsun"
   date: "2026/07/31"
   pdf: /assets/pdf/suh-2026-grounds-frames-standing-proposal.pdf
-  doi: "10.5281/zenodo.21741218"
+  doi: "10.5281/zenodo.21719008"
 ---
 
 <article>
 <h1>Human Intervention in Agentic Work: A Measurement Scheme, Pilot Evidence, and a Research Program</h1>
-<p class="post-meta">Jongsun Suh · Research proposal, 2026 · full treatment in two papers: <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">the taxonomy</a> and <a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">its entailments</a></p>
+<p class="post-meta">Jongsun Suh · Research proposal, 2026 · full treatment in three papers: <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">the taxonomy</a>, <a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">its entailments</a>, and <a href="{{ '/papers/human-irreducibility-controls/' | relative_url }}">the instruments and their controls</a></p>
 
 <p>
 When, if ever, is human intervention required for an AI agent to operate successfully? The
@@ -55,18 +55,21 @@ over the same window in which the effect of improving models is the quantity of 
 
 <p>
 <a href="{{ '/assets/pdf/suh-2026-grounds-frames-standing-proposal.pdf' | relative_url }}">PDF</a> ·
-<a href="https://doi.org/10.5281/zenodo.21741218">DOI: 10.5281/zenodo.21741218</a> ·
+<a href="https://doi.org/10.5281/zenodo.21719008">DOI: 10.5281/zenodo.21719008</a> ·
 <a href="https://doi.org/10.5281/zenodo.21719008">all versions</a>
 </p>
 
-<p>The full treatment is deposited as two papers, split on 2026-07-31 along the argument's
-dependency graph. The taxonomy half, carrying the mechanism inventory, the discovery corpus,
-the coding scheme and its reliability measurements, and the literature survey, is
+<p>The full treatment is deposited as three papers, divided along the argument's dependency
+graph. The mechanism inventory, the discovery corpus, the coding scheme and its reliability
+measurements, and the literature survey are in
 <a href="{{ '/papers/epistemic-content-taxonomy/' | relative_url }}">An Epistemic-Content
-Taxonomy of Human Intervention in Agentic Collaboration</a>. The entailment half, deriving
-which classes of intervention are absorbable and which is not, is
+Taxonomy of Human Intervention in Agentic Collaboration</a>. The derivation of which classes
+of intervention are absorbable and which is not is in
 <a href="{{ '/papers/grounds-frames-standing/' | relative_url }}">Grounds, Frames, and
-Standing</a>. Both are cited throughout as the technical companions.</p>
+Standing</a>. The instruments built to locate one practitioner's contribution on that ladder,
+and the controls that destroyed most of them, are in
+<a href="{{ '/papers/human-irreducibility-controls/' | relative_url }}">What Can Be Established
+About Human Irreducibility</a>. All three are cited throughout as the technical companions.</p>
 </article>
 
 <p><a href="{{ '/papers/' | relative_url }}">&larr; all papers</a></p>
